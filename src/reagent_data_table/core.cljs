@@ -12,7 +12,7 @@
       (->>
        (remove empty?))))
 
-(defn- filter-row
+(defn filter-row
 
   "Predicate fn for deciding whether to show a row when filtering is being applied. All filters must match somewhere
    in a row for it to be shown"
